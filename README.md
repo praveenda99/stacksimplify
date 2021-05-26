@@ -1,58 +1,92 @@
-# AWS Fargate & ECS (Elastic Container Service) - Masterclass
-
-Welcome to this Amazing course on **AWS Fargate & ECS - Masterclass | Microservices, Docker, CloudFormation**.Below is the list of modules covered in this course. 
+# HashiCorp Certified: Terraform Associate - 50 Practical Demos
+[![Image](https://stacksimplify.com/course-images/hashicorp-certified-terraform-associate-highest-rated.png "HashiCorp Certified: Terraform Associate - 50 Practical Demos")](https://links.stacksimplify.com/hashicorp-certified-terraform-associate)
 
 ## Course Modules
-1. Fargate & ECS - First Steps
-2. Docker Fundamentals
-3. Fargate and ECS Fundamentals
-4. ECR - Elastic Container Registry
-5. Load Balancing & Service Autoscaling
-6. Continuous Integration & Continuous Delivery
-7. Microservices Deployment without Service Discovery
-8. Microservices Deployment with Service Discovery
-9. Microservices Deployment with AWS App Mesh and X-Ray
-10. Microservices Canary Deployments with AWS App Mesh
-11. CloudFormation for Fargate Deployments
+01. Infrastructure as Code (IaC)
+02. Install Tools on MacOs, LinuxOS and WindowsOS
+03. Command Basics
+04. Language Syntax
+05. Settings Block
+06. Providers Block
+07. Multiple Providers usage
+08. Dependency Lock File Importance
+09. Resources Syntax and Behavior
+10. Resources Meta-Argument - depends_on
+11. Resources Meta-Argument - count
+12. Resources Meta-Argument - for_each
+13. Resources Meta-Argument - lifecycle
+14. Input Variables - Basics
+15. Input Variables - Assign When Prompted
+16. Input Variables - Override default with cli var
+17. Input Variables - Override with environment variables
+18. Input Variables - Assign with terraform.tfvars
+19. Input Variables - Assign with tfvars var-file argument
+20. Input Variables - Assign with auto tfvars
+21. Input Variables - Lists
+22. Input Variables - Maps
+23. Input Variables - Validation Rules
+24. Input Variables - Sensitive Input Variables
+25. File Function
+26. Output Values
+27. Local Values
+28. Datasources
+29. Backends - Remote State Storage
+30. State Commands
+31. CLI Workspaces with local backend
+32. CLI Workspaces with remote backend
+33. File Provisioner
+34. local-exec Provisioner
+35. remote-exec Provisioner
+36. Null Resource
+37. Modules from Public Registry
+38. Build Local Module
+39. Terraform Cloud - VCS-Driven Worflow
+40. Terraform Cloud - CLI-Driven Worflow
+41. Terraform Cloud - Share modules in private module registry
+42. Migrate State to Terraform Cloud
+43. Basic Sentinel Policies
+44. Cost Control Sentinel Policies
+45. CIS Sentinel Policies
+46. State Import
+47. Graph
+48. Functions
+49. Dynamic Expressions
+50. Dynamic Blocks
 
-## AWS Services - Covered as part of this course
-1. AWS ECS Service
-2. AWS Fargate Service
-3. AWS Elastic Container Registry - ECR
-4. AWS Elastic Load Balancer
-5. AWS CloudWatch
-6. AWS VPC
-7. AWS CodeCommit
-8. AWS CodeBuild
-9. AWS CodePipeline
-10. AWS Cloud Map
-11. AWS App Mesh
-12. AWS X-Ray
-13. AWS Simple Email Service - SES
-14. AWS CloudFormation
 
 ## What will students learn in your course?
-- You will slowly start by learning Docker Fundamentals and move on to ECS or Fargate. 
-- You will learn Docker fundamentals by implementing usecases like download image from Docker Hub and run on local desktop and build an image locally, test and push to Docker Hub.
-- You will master the Elastic Container Service core concepts like Task Definition, Task and Service.
-- You will learn using ECR - Elastic Container Registry in combination with ECS. 
-- You will learn Docker Image Build, Push to ECR, run it as Task on ECS or Fargate Clusters.
-- You will learn usage of Application Load Balancers in combination with ECS Tasks (Containers) and also implement URI based routing on ALB.
-- You will understand and implement Service Autoscaling concepts of ECS
-- You will implement Continuous Integration and Continuous Delivery concepts using AWS Developer Tools like CodeBuild, CodeCommit and CodePipeline.
-- You will learn to master microservices deployments on ECS in combination with AWS CloudMap (for Service Discovery) and with AWS App Mesh (Service Mesh).
-- You will learn to deploy Microservices Canary Deployments using AWS App Mesh.
-- You will write CloudFormation Templates for Fargate Deployments starting from Network stack (VPC) to Service Stack (ECS or Fargate). 
-- You will learn to implement Distributed Tracing using X-Ray without making any application level code changes when AWS App Mesh (Envoy Proxy) is in place with ECS Deployments.
+- You will learn to master Terraform in a practical perspective with 40+ demo's
+- You will learn each and every concept of Terraform (basic to advanced)
+- You will learn to write and understand Terraform Resource Behavior in combination with all the Meta-Arguments
+- You will learn each and every way (10 types) you can implement the Terraform Input Variables
+- You will learn in detail about Terrafrom State, Remote Backends, Terraform Cloud Backends and many Terraform State commands
+- You will learn and implement Terraform CLI based workspaces
+- You will learn and implement all Terraform Provisioners 
+- You will learn and implement Terraform Modules with all 3 types (Public Modules, Local Modules and Private Registry modules on Terraform Cloud)
+- You will learn and implement two important usecases on Terraform Cloud (VCS-Driven and CLI-Driven Workflows)
+- You will learn about sentinel policies and implement 3 types of sentinel policies
+- You will learn and implement Terraform Dynamic Expressions, Dynamic Blocks and Terraform Functions
+- You will also learn and implement Terraform Datasources concept
 
 ## Are there any course requirements or prerequisites?
-- You must have an AWS account to follow with me for hands-on activities.
-- You dont need to have any basic Docker knowledge also to start this course.  As part of Docker Fundamentals we have covered that too. 
+- You must have an AWS Cloud account to follow with me for hands-on activities.
+- You don't need to have any basic knowledge of Terraform. Course will get started from very very basics of Terraform and take you to very advanced levels
+
+
 
 ## Who are your target students?
-- AWS Architects or Sysadmins or Developers who are planning to master Elastic Container Service (ECS) for Docker deployments.
-- Any beginner who is interested in learning Docker fundamentals and moving on to master Docker Container deployments on AWS Cloud. 
-- Technologists who want to implement Continuous Integration and Continuos Delivery/Deployment process (CI/CD) in AWS with Docker Container Images.
+- Infrastructure Architects or Sysadmins or Developers who are planning to master Terraform
+- Any beginner who is interested in learning IaC Infrastructure as Code current trending tool Terraform 
+- Anyone who want to learn Terraform from a practical perspective 
+
+## Github Repositories used for this course
+- [HashiCorp Certified: Terraform Associate](https://github.com/stacksimplify/hashicorp-certified-terraform-associate)
+- [Terraform Cloud Demo](https://github.com/stacksimplify/terraform-cloud-demo1)
+- [Terraform Private Module Registry](https://github.com/stacksimplify/terraform-aws-s3-website)
+- [Terraform Sentinel Policies](https://github.com/stacksimplify/terraform-sentinel-policies)
+- [Course PPT Presentation](https://github.com/stacksimplify/hashicorp-certified-terraform-associate/tree/master/presentation)
+- **Important Note:** Please go to these repositories and FORK these repositories and make use of them during the course.
+
 
 ## Each of my courses come with
 - Amazing Hands-on Step By Step Learning Experiences
@@ -66,4 +100,18 @@ Welcome to this Amazing course on **AWS Fargate & ECS - Masterclass | Microservi
 ## Stack Simplify Udemy Profile
 - [Udemy Profile](https://www.udemy.com/user/kalyan-reddy-9/)
 
+# AWS EKS - Elastic Kubernetes Service - Masterclass
+[![Image](https://stacksimplify.com/course-images/AWS-EKS-Kubernetes-Masterclass-DevOps-Microservices-course.png "AWS EKS Kubernetes - Masterclass")](https://www.udemy.com/course/aws-eks-kubernetes-masterclass-devops-microservices/?referralCode=257C9AD5B5AF8D12D1E1)
+
+
+# Azure Kubernetes Service with Azure DevOps and Terraform 
+[![Image](https://stacksimplify.com/course-images/azure-kubernetes-service-with-azure-devops-and-terraform.png "Azure Kubernetes Service with Azure DevOps and Terraform")](https://www.udemy.com/course/azure-kubernetes-service-with-azure-devops-and-terraform/?referralCode=2499BF7F5FAAA506ED42)
+
+
+## Additional References
+- [Certification Curriculum](https://www.hashicorp.com/certification/terraform-associate)
+- [Certification Preparation](https://learn.hashicorp.com/collections/terraform/certification)
+- [Study Guide](https://learn.hashicorp.com/tutorials/terraform/associate-study?in=terraform/certification)
+- [Exam Review Guide](https://learn.hashicorp.com/tutorials/terraform/associate-review?in=terraform/certification)
+- [Sample Questions](https://learn.hashicorp.com/tutorials/terraform/associate-questions?in=terraform/certification)
 
